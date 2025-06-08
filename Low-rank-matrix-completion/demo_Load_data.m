@@ -17,7 +17,7 @@ RUN_ERR=[];
 
 for time=1:max_run
     fprintf('Time--%d',time)
-samp_rate=0.8;
+samp_rate=0.6; %This is R
 df = r*(n1+n2-r);
 m = round(min(1000*df,samp_rate*n1*n2));
 
